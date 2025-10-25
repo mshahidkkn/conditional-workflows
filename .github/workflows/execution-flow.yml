@@ -82,4 +82,4 @@ jobs:
       - name: printing report
         run: |
           echo "something went wrong"
-          echo "${{ toJSON.github }}"      
+          echo "${{ toJSON(github) }}"      
